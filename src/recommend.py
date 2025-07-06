@@ -16,7 +16,7 @@ logging.basicConfig(
 logging.info("🔁 Loading data...")
 try:
     df = joblib.load(os.path.join(os.path.dirname(__file__), "df_cleaned.pkl"))
-    cosine_sim = joblib.load('../cosine_sim.pkl')
+    cosine_sim = joblib.load(os.path.join(os.path.dirname(__file__), "cosine_sim.pkl"))
     logging.info("✅ Data loaded successfully.")
 except Exception as e:
     logging.error("❌ Failed to load required files: %s", str(e))
