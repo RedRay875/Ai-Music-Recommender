@@ -1,6 +1,7 @@
 # recommend.py
 import joblib
 import logging
+import os
 
 # Setup logging
 logging.basicConfig(
