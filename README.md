@@ -1,29 +1,18 @@
-# 🎶 AI Music Recommender
+# 🎵 AI Music Recommender
 
-A lyric-based music recommendation app powered by NLP, TF-IDF vectorization, and cosine similarity.  
-Built with Python, Streamlit, and the Spotify Million Song Dataset.
+A smart music recommendation engine using content-based filtering based on tempo, mood, genre, and audio tags.
 
----
+## 🧠 Features
+- Song suggestions by mood and BPM
+- Real-time recommendations
+- Lightweight interface using Streamlit
 
-## 🔍 Features
+## 🔧 Tech Stack
+- Python, Pandas
+- Streamlit, Numpy
 
-- Recommend similar songs based on lyrics
-- Clean and responsive Streamlit web app
-- Preprocessing with NLTK + Scikit-learn
-- User-friendly UI with lyrics preview
+## 🚀 Live Demo
+👉 [Launch App](https://ai-music-recommender-cvqlceq95rwngio9thmbkc.streamlit.app/)
 
----
-
-## 📦 Dataset
-
-We use the [Spotify Million Song Dataset](https://www.kaggle.com/datasets/gyani95/spotify-million-song-dataset) from Kaggle.
-
-To use this app, you'll need to manually download the CSV file and preprocess it locally.
-
----
-
-## 🚀 Installation
-
-> 🔧 Make sure Python 3.9+ is installed and optionally create a virtual environment:
-
-
+## 📄 License
+MIT
